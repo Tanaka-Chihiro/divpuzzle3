@@ -25,8 +25,12 @@
   width: 40px;
   height: 40px;
   background: #a9004b;
-  margin: 10px;
+  margin: 10px 0 10px 10px;
   float: left;
+}
+
+.purple-box:last-child{
+  margin: 10px;
 }
 
 .green-box{
@@ -44,7 +48,8 @@
 
 .body-box{
   position: absolute;
-  margin: 10px;
+  top: 40px;
+  left: 40px;
 }
 
 .orange-box{
